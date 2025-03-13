@@ -1,0 +1,19 @@
+PS C:\Users\ggelmetdinov\Documents\python-advanced-2025\hw1\task3> "Hello world mama mia EFL" | Set-Content -Encoding utf8 test_wc.txt
+PS C:\Users\ggelmetdinov\Documents\python-advanced-2025\hw1\task3> cat .\test_wc.txt
+Hello world mama mia EFL
+PS C:\Users\ggelmetdinov\Documents\python-advanced-2025\hw1\task3> python3 task3.py test_wc.txt
+      1      5     29 test_wc.txt
+PS C:\Users\ggelmetdinov\Documents\python-advanced-2025\hw1\task3> "mewLine 1`nLine 2`nratatatata" | Set-Content test_wc2.txt
+PS C:\Users\ggelmetdinov\Documents\python-advanced-2025\hw1\task3> cat test_wc2.txt
+mewLine 1
+Line 2
+ratatatata
+PS C:\Users\ggelmetdinov\Documents\python-advanced-2025\hw1\task3> "Test" | Set-Content test_wc3.txt
+PS C:\Users\ggelmetdinov\Documents\python-advanced-2025\hw1\task3> cat test_wc3.txt
+Test
+PS C:\Users\ggelmetdinov\Documents\python-advanced-2025\hw1\task3> python3 task3.py test_wc2.txt test_wc3.txt
+      3      5     29 test_wc2.txt
+      1      1      6 test_wc3.txt
+      4      6     35 total
+PS C:\Users\ggelmetdinov\Documents\python-advanced-2025\hw1\task3>  "Hello`nWorld" | python task3.py
+      2      2     13

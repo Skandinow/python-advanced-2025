@@ -1,0 +1,17 @@
+PS C:\Users\ggelmetdinov\Documents\python-advanced-2025\hw1> cat .\test_nl.txt
+i love animals
+they love me
+kiss me just before you go
+
+summertime saaadneeeess
+PS C:\Users\ggelmetdinov\Documents\python-advanced-2025\hw1> python3 task1.py test_nl.txt
+1  i love animals
+2  they love me
+3  kiss me just before you go
+4
+5  summertime saaadneeeess
+PS C:\Users\ggelmetdinov\Documents\python-advanced-2025\hw1> echo -e "Осталось10негритят\nОстаPS C:\Users\ggelmetdinov\Documents\python-advanced-2025\hw1> "Осталось10негритят`n`Осталось9негритят`n`n`Осталось 7негритят..." | python3 task1.py
+1  ????????10????????
+2  ????????9????????
+3
+4  ???????? 7????????...

@@ -1,0 +1,102 @@
+PS C:\Users\ggelmetdinov\Documents\python-advanced-2025\hw1> 1..15 | ForEach-Object { "Line $_" } | Set-Content .\file.txt
+PS C:\Users\ggelmetdinov\Documents\python-advanced-2025\hw1> cat file.txt
+Line 1
+Line 2
+Line 3
+Line 4
+Line 5
+Line 6
+Line 7
+Line 8
+Line 9
+Line 10
+Line 11
+Line 12
+Line 13
+Line 14
+Line 15
+PS C:\Users\ggelmetdinov\Documents\python-advanced-2025\hw1> python3 task2.py .\test_tail1.txt
+Line 6
+Line 7
+Line 8
+Line 9
+Line 10
+Line 11
+Line 12
+Line 13
+Line 14
+Line 15
+PS C:\Users\ggelmetdinov\Documents\python-advanced-2025\hw1> 10..25 | ForEach-Object { "File1 Line $_" } | Set-Content .\test_tail2.txt
+PS C:\Users\ggelmetdinov\Documents\python-advanced-2025\hw1> cat .\test_tail2.txt
+File1 Line 10
+File1 Line 11
+File1 Line 12
+File1 Line 13
+File1 Line 14
+File1 Line 15
+File1 Line 16
+File1 Line 17
+File1 Line 18
+File1 Line 19
+File1 Line 20
+File1 Line 21
+File1 Line 22
+File1 Line 23
+File1 Line 24
+File1 Line 25
+PS C:\Users\ggelmetdinov\Documents\python-advanced-2025\hw1> 1..12 | ForEach-Object { "File2 Line $_" } | Set-Content .\test_tail3.txt
+PS C:\Users\ggelmetdinov\Documents\python-advanced-2025\hw1> cat .\test_tail3.txt
+File2 Line 1
+File2 Line 2
+File2 Line 3
+File2 Line 4
+File2 Line 5
+File2 Line 6
+File2 Line 7
+File2 Line 8
+File2 Line 9
+File2 Line 10
+File2 Line 11
+File2 Line 12
+PS C:\Users\ggelmetdinov\Documents\python-advanced-2025\hw1> python3 task2.py .\test_tail2.txt .\test_tail3.txt
+==> .\test_tail2.txt <==
+File1 Line 16
+File1 Line 17
+File1 Line 18
+File1 Line 19
+File1 Line 20
+File1 Line 21
+File1 Line 22
+File1 Line 23
+File1 Line 24
+File1 Line 25
+==> .\test_tail3.txt <==
+File2 Line 3
+File2 Line 4
+File2 Line 5
+File2 Line 6
+File2 Line 7
+File2 Line 8
+File2 Line 9
+File2 Line 10
+File2 Line 11
+File2 Line 12
+PS C:\Users\ggelmetdinov\Documents\python-advanced-2025\hw1> 100..120 | ForEach-Object { "Line $_" } | python3 task2.py
+Line 104
+Line 105
+Line 106
+Line 107
+Line 108
+Line 109
+Line 110
+Line 111
+Line 112
+Line 113
+Line 114
+Line 115
+Line 116
+Line 117
+Line 118
+Line 119
+Line 120
+PS C:\Users\ggelmetdinov\Documents\python-advanced-2025\hw1>
