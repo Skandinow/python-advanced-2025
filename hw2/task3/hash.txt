@@ -1,0 +1,2 @@
+Hash(AB): 18
+Hash(CD): 34
