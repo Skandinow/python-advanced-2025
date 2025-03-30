@@ -53,12 +53,12 @@ def find_collision():
 if __name__ == "__main__":
     A, B, C, D, AB, CD = find_collision()
 
-    A.save("A.txt")
-    B.save("B.txt")
-    C.save("C.txt")
-    D.save("D.txt")
-    AB.save("AB.txt")
-    CD.save("CD.txt")
+    A.save("artifacts/A.txt")
+    B.save("artifacts/B.txt")
+    C.save("artifacts/C.txt")
+    D.save("artifacts/D.txt")
+    AB.save("artifacts/AB.txt")
+    CD.save("artifacts/CD.txt")
 
-    with open("hash.txt", "w") as f:
+    with open("artifacts/hash.txt", "w") as f:
         f.write(f"Hash(AB): {hash(AB)}\nHash(CD): {hash(CD)}")

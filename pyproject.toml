@@ -1,0 +1,7 @@
+[tool.poetry]
+name = "python-advanced-2025"
+version = "0.1.0"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+numpy = "^1.26.0"

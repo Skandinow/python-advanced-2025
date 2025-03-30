@@ -57,6 +57,6 @@ if __name__ == "__main__":
             for row in matrix.rows:
              f.write(' '.join(map(str, row)) + '\n')
     
-    write_matrix(matrix_add, 'matrix_add.txt')
-    write_matrix(matrix_mul, 'matrix_mul.txt')
-    write_matrix(matrix_matmul, 'matrix_matr_mul.txt')
+    write_matrix(matrix_add, 'artifacts/matrix_add.txt')
+    write_matrix(matrix_mul, 'artifacts/matrix_mul.txt')
+    write_matrix(matrix_matmul, 'artifacts/matrix_matr_mul.txt')

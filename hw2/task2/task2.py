@@ -62,6 +62,6 @@ if __name__ == "__main__":
     matrix_mul = matrix1 * matrix2
     matrix_matmul = matrix1 @ matrix2
 
-    matrix_add.write_to_file("matrix_add.txt")
-    matrix_mul.write_to_file("matrix_mul.txt")
-    matrix_matmul.write_to_file("matrix_matr_mul.txt")
+    matrix_add.write_to_file("artifacts/matrix_add.txt")
+    matrix_mul.write_to_file("artifacts/matrix_mul.txt")
+    matrix_matmul.write_to_file("artifacts/matrix_matr_mul.txt")
